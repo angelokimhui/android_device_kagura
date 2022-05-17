@@ -24,7 +24,7 @@ DEVICE_PATH := device/sony/kagura
 TARGET_OTA_ASSERT_DEVICE := kagura,kagura_dsds,F8331,F8332
 
 # Kernel
-TARGET_KERNEL_CONFIG := tone_kagura_defconfig
+TARGET_KERNEL_CONFIG := eas_defconfig
 
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
